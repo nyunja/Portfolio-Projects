@@ -52,8 +52,51 @@ This project focuses on cleaning and standardizing a dataset of national housing
 2. Import the provided datasets into your SQL Server.
 3. Run the SQL scripts in your preferred SQL client (e.g., SQL Server Management Studio).
 
-## Future Work
 
+### 3. Movie Data Analysis Project
+
+This project analyzes a dataset of movies to explore relationships between various features and their impact on movie gross earnings.
+
+#### Project Overview
+
+The project uses Python to perform data analysis and visualization on a movies dataset. It explores correlations between different movie attributes, with a focus on how factors like budget relate to gross earnings.
+
+#### Technologies Used
+
+- Python
+- Pandas for data manipulation
+- Matplotlib and Seaborn for data visualization
+- NumPy for numerical operations
+
+#### Key Features
+
+1. Data cleaning and preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Correlation analysis
+4. Visualization of relationships between variables
+
+#### Setup and Installation
+
+1. Ensure you have Python installed on your system.
+2. Install required libraries:
+3. Download the 'movies.csv' dataset and place it in the appropriate directory.
+
+## Usage
+
+Run the Jupyter Notebook 'CorrelationProject1.ipynb' to see the analysis and visualizations.
+
+#### Findings
+
+The project explores various hypotheses, including:
+1. The relationship between movie budget and gross revenue
+2. The impact of production company on gross revenue
+
+Detailed findings and visualizations are available in the notebook.
+
+
+## Future Work
+- Deeper analysis of other factors influencing movie success
+- Machine learning models to predict movie performance
 - Develop visualizations based on the created views
 - Perform more advanced statistical analyses
 - Integrate machine learning models for predictive analytics
